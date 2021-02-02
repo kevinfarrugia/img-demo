@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Image loading demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Image loading demo</h1>
+    <p>
+      The below pages illustrate different image loading techniques. The problem
+      being tackled is loading a large number of <i>non-critical</i> images
+      simultaneously. In the example, we will be downloading all world flags
+      generated from
+      <a href="https://github.com/joielechong/iso-country-flags-svg-collection"
+        >iso-country-flags-svg-collection</a
+      >.
+    </p>
+    <p>
+      Additionally, the solution must have good cross-browser support (IE11+),
+      be cacheable and support gzip or Brotli compression.
+    </p>
+    <h2>Demos:</h2>
+    <ul>
+      <li>
+        <a href="./png">PNG</a> - PNG images are loaded using
+        <code>&lt;img&gt;</code>
+      </li>
+      <li>
+        <a href="./svg">SVG</a> - SVG images are loaded using
+        <code>&lt;img&gt;</code>
+      </li>
+      <li>
+        <a href="./png-lazy">PNG w/ lazy</a> - PNG images are loaded using
+        <code>&lt;img&gt;</code> and <code>loading="lazy"</code>
+      </li>
+      <li>
+        <a href="./svg-lazy">SVG w/ lazy</a> - SVG images are loaded using
+        <code>&lt;img&gt;</code>
+      </li>
+      <li><a href="./png-css">PNG in CSS</a> - PNG in CSS</li>
+      <li><a href="./svg-css">SVG in CSS</a> - SVG in CSS</li>     
+    </ul>
+  </body>
+</html>

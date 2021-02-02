@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Image loading demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- https://www.filamentgroup.com/lab/load-css-simpler/ -->
+    <link rel="stylesheet" href="./svg-css.min.css" media="print" onload="this.media='all'" />
+  </head>
+  <body>
+    <ul class="container">
+      <li class="item">
+        <div class="thumb"><div class="img ad" alt="ad"></div></div>
+        <label class="label">Andorra</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ae" alt="ae"></div></div>
+        <label class="label">United Arab Emirates</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img af" alt="af"></div></div>
+        <label class="label">Afghanistan</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ag" alt="ag"></div></div>
+        <label class="label">Antigua and Barbuda</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ai" alt="ai"></div></div>
+        <label class="label">Anguilla</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img al" alt="al"></div></div>
+        <label class="label">Albania</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img am" alt="am"></div></div>
+        <label class="label">Armenia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ao" alt="ao"></div></div>
+        <label class="label">Angola</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img aq" alt="aq"></div></div>
+        <label class="label">Antarctica</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ar" alt="ar"></div></div>
+        <label class="label">Argentina</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img as" alt="as"></div></div>
+        <label class="label">American Samoa</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img at" alt="at"></div></div>
+        <label class="label">Austria</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img au" alt="au"></div></div>
+        <label class="label">Australia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img aw" alt="aw"></div></div>
+        <label class="label">Aruba</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ax" alt="ax"></div></div>
+        <label class="label">Åland Islands</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img az" alt="az"></div></div>
+        <label class="label">Azerbaijan</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ba" alt="ba"></div></div>
+        <label class="label">Bosnia and Herzegovina</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img bb" alt="bb"></div></div>
+        <label class="label">Barbados</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img bd" alt="bd"></div></div>
+        <label class="label">Bangladesh</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img be" alt="be"></div></div>
+        <label class="label">Belgium</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img bf" alt="bf"></div></div>
+        <label class="label">Burkina Faso</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img bg" alt="bg"></div></div>
+        <label class="label">Bulgaria</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img bh" alt="bh"></div></div>
+        <label class="label">Bahrain</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img bi" alt="bi"></div></div>
+        <label class="label">Burundi</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img bj" alt="bj"></div></div>
+        <label class="label">Benin</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img bl" alt="bl"></div></div>
+        <label class="label">Saint Barthélemy</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img bm" alt="bm"></div></div>
+        <label class="label">Bermuda</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img bn" alt="bn"></div></div>
+        <label class="label">Brunei Darussalam</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img bo" alt="bo"></div></div>
+        <label class="label">Bolivia, Plurinational State of</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img bq" alt="bq"></div></div>
+        <label class="label">Caribbean Netherlands</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img br" alt="br"></div></div>
+        <label class="label">Brazil</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img bs" alt="bs"></div></div>
+        <label class="label">Bahamas</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img bt" alt="bt"></div></div>
+        <label class="label">Bhutan</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img bv" alt="bv"></div></div>
+        <label class="label">Bouvet Island</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img bw" alt="bw"></div></div>
+        <label class="label">Botswana</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img by" alt="by"></div></div>
+        <label class="label">Belarus</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img bz" alt="bz"></div></div>
+        <label class="label">Belize</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ca" alt="ca"></div></div>
+        <label class="label">Canada</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img cc" alt="cc"></div></div>
+        <label class="label">Cocos (Keeling) Islands</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img cd" alt="cd"></div></div>
+        <label class="label">Congo, the Democratic Republic of the</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img cf" alt="cf"></div></div>
+        <label class="label">Central African Republic</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img cg" alt="cg"></div></div>
+        <label class="label">Republic of the Congo</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ch" alt="ch"></div></div>
+        <label class="label">Switzerland</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ci" alt="ci"></div></div>
+        <label class="label">C\u00f4te d'Ivoire</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ck" alt="ck"></div></div>
+        <label class="label">Cook Islands</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img cl" alt="cl"></div></div>
+        <label class="label">Chile</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img cm" alt="cm"></div></div>
+        <label class="label">Cameroon</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img cn" alt="cn"></div></div>
+        <label class="label">China</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img co" alt="co"></div></div>
+        <label class="label">Colombia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img cr" alt="cr"></div></div>
+        <label class="label">Costa Rica</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img cu" alt="cu"></div></div>
+        <label class="label">Cuba</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img cv" alt="cv"></div></div>
+        <label class="label">Cape Verde</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img cw" alt="cw"></div></div>
+        <label class="label">Cura\u00e7ao</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img cx" alt="cx"></div></div>
+        <label class="label">Christmas Island</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img cy" alt="cy"></div></div>
+        <label class="label">Cyprus</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img cz" alt="cz"></div></div>
+        <label class="label">Czech Republic</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img de" alt="de"></div></div>
+        <label class="label">Germany</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img dj" alt="dj"></div></div>
+        <label class="label">Djibouti</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img dk" alt="dk"></div></div>
+        <label class="label">Denmark</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img dm" alt="dm"></div></div>
+        <label class="label">Dominica</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img do" alt="do"></div></div>
+        <label class="label">Dominican Republic</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img dz" alt="dz"></div></div>
+        <label class="label">Algeria</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ec" alt="ec"></div></div>
+        <label class="label">Ecuador</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ee" alt="ee"></div></div>
+        <label class="label">Estonia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img eg" alt="eg"></div></div>
+        <label class="label">Egypt</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img eh" alt="eh"></div></div>
+        <label class="label">Western Sahara</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img er" alt="er"></div></div>
+        <label class="label">Eritrea</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img es" alt="es"></div></div>
+        <label class="label">Spain</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img et" alt="et"></div></div>
+        <label class="label">Ethiopia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img eu" alt="eu"></div></div>
+        <label class="label">Europe</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img fi" alt="fi"></div></div>
+        <label class="label">Finland</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img fj" alt="fj"></div></div>
+        <label class="label">Fiji</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img fk" alt="fk"></div></div>
+        <label class="label">Falkland Islands (Malvinas)</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img fm" alt="fm"></div></div>
+        <label class="label">Micronesia, Federated States of</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img fo" alt="fo"></div></div>
+        <label class="label">Faroe Islands</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img fr" alt="fr"></div></div>
+        <label class="label">France</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ga" alt="ga"></div></div>
+        <label class="label">Gabon</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gb-eng" alt="gb-eng"></div></div>
+        <label class="label">England</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gb-nir" alt="gb-nir"></div></div>
+        <label class="label">Northern Ireland</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gb-sct" alt="gb-sct"></div></div>
+        <label class="label">Scotland</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gb-wls" alt="gb-wls"></div></div>
+        <label class="label">Wales</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gb" alt="gb"></div></div>
+        <label class="label">United Kingdom</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gd" alt="gd"></div></div>
+        <label class="label">Grenada</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ge" alt="ge"></div></div>
+        <label class="label">Georgia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gf" alt="gf"></div></div>
+        <label class="label">French Guiana</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gg" alt="gg"></div></div>
+        <label class="label">Guernsey</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gh" alt="gh"></div></div>
+        <label class="label">Ghana</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gi" alt="gi"></div></div>
+        <label class="label">Gibraltar</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gl" alt="gl"></div></div>
+        <label class="label">Greenland</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gm" alt="gm"></div></div>
+        <label class="label">Gambia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gn" alt="gn"></div></div>
+        <label class="label">Guinea</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gp" alt="gp"></div></div>
+        <label class="label">Guadeloupe</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gq" alt="gq"></div></div>
+        <label class="label">Equatorial Guinea</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gr" alt="gr"></div></div>
+        <label class="label">Greece</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gs" alt="gs"></div></div>
+        <label class="label"
+          >South Georgia and the South Sandwich Islands</label
+        >
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gt" alt="gt"></div></div>
+        <label class="label">Guatemala</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gu" alt="gu"></div></div>
+        <label class="label">Guam</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gw" alt="gw"></div></div>
+        <label class="label">Guinea-Bissau</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img gy" alt="gy"></div></div>
+        <label class="label">Guyana</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img hk" alt="hk"></div></div>
+        <label class="label">Hong Kong</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img hm" alt="hm"></div></div>
+        <label class="label">Heard Island and McDonald Islands</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img hn" alt="hn"></div></div>
+        <label class="label">Honduras</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img hr" alt="hr"></div></div>
+        <label class="label">Croatia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ht" alt="ht"></div></div>
+        <label class="label">Haiti</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img hu" alt="hu"></div></div>
+        <label class="label">Hungary</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img id" alt="id"></div></div>
+        <label class="label">Indonesia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ie" alt="ie"></div></div>
+        <label class="label">Ireland</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img il" alt="il"></div></div>
+        <label class="label">Israel</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img im" alt="im"></div></div>
+        <label class="label">Isle of Man</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img in" alt="in"></div></div>
+        <label class="label">India</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img io" alt="io"></div></div>
+        <label class="label">British Indian Ocean Territory</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img iq" alt="iq"></div></div>
+        <label class="label">Iraq</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ir" alt="ir"></div></div>
+        <label class="label">Iran, Islamic Republic of</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img is" alt="is"></div></div>
+        <label class="label">Iceland</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img it" alt="it"></div></div>
+        <label class="label">Italy</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img je" alt="je"></div></div>
+        <label class="label">Jersey</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img jm" alt="jm"></div></div>
+        <label class="label">Jamaica</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img jo" alt="jo"></div></div>
+        <label class="label">Jordan</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img jp" alt="jp"></div></div>
+        <label class="label">Japan</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ke" alt="ke"></div></div>
+        <label class="label">Kenya</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img kg" alt="kg"></div></div>
+        <label class="label">Kyrgyzstan</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img kh" alt="kh"></div></div>
+        <label class="label">Cambodia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ki" alt="ki"></div></div>
+        <label class="label">Kiribati</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img km" alt="km"></div></div>
+        <label class="label">Comoros</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img kn" alt="kn"></div></div>
+        <label class="label">Saint Kitts and Nevis</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img kp" alt="kp"></div></div>
+        <label class="label">Korea, Democratic People's Republic of</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img kr" alt="kr"></div></div>
+        <label class="label">Korea, Republic of</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img kw" alt="kw"></div></div>
+        <label class="label">Kuwait</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ky" alt="ky"></div></div>
+        <label class="label">Cayman Islands</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img kz" alt="kz"></div></div>
+        <label class="label">Kazakhstan</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img la" alt="la"></div></div>
+        <label class="label">Lao People's Democratic Republic</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img lb" alt="lb"></div></div>
+        <label class="label">Lebanon</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img lc" alt="lc"></div></div>
+        <label class="label">Saint Lucia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img li" alt="li"></div></div>
+        <label class="label">Liechtenstein</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img lk" alt="lk"></div></div>
+        <label class="label">Sri Lanka</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img lr" alt="lr"></div></div>
+        <label class="label">Liberia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ls" alt="ls"></div></div>
+        <label class="label">Lesotho</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img lt" alt="lt"></div></div>
+        <label class="label">Lithuania</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img lu" alt="lu"></div></div>
+        <label class="label">Luxembourg</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img lv" alt="lv"></div></div>
+        <label class="label">Latvia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ly" alt="ly"></div></div>
+        <label class="label">Libya</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ma" alt="ma"></div></div>
+        <label class="label">Morocco</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img mc" alt="mc"></div></div>
+        <label class="label">Monaco</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img md" alt="md"></div></div>
+        <label class="label">Moldova, Republic of</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img me" alt="me"></div></div>
+        <label class="label">Montenegro</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img mf" alt="mf"></div></div>
+        <label class="label">Saint Martin</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img mg" alt="mg"></div></div>
+        <label class="label">Madagascar</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img mh" alt="mh"></div></div>
+        <label class="label">Marshall Islands</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img mk" alt="mk"></div></div>
+        <label class="label">Macedonia, the former Yugoslav Republic of</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ml" alt="ml"></div></div>
+        <label class="label">Mali</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img mm" alt="mm"></div></div>
+        <label class="label">Myanmar</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img mn" alt="mn"></div></div>
+        <label class="label">Mongolia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img mo" alt="mo"></div></div>
+        <label class="label">Macao</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img mp" alt="mp"></div></div>
+        <label class="label">Northern Mariana Islands</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img mq" alt="mq"></div></div>
+        <label class="label">Martinique</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img mr" alt="mr"></div></div>
+        <label class="label">Mauritania</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ms" alt="ms"></div></div>
+        <label class="label">Montserrat</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img mt" alt="mt"></div></div>
+        <label class="label">Malta</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img mu" alt="mu"></div></div>
+        <label class="label">Mauritius</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img mv" alt="mv"></div></div>
+        <label class="label">Maldives</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img mw" alt="mw"></div></div>
+        <label class="label">Malawi</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img mx" alt="mx"></div></div>
+        <label class="label">Mexico</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img my" alt="my"></div></div>
+        <label class="label">Malaysia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img mz" alt="mz"></div></div>
+        <label class="label">Mozambique</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img na" alt="na"></div></div>
+        <label class="label">Namibia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img nc" alt="nc"></div></div>
+        <label class="label">New Caledonia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ne" alt="ne"></div></div>
+        <label class="label">Niger</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img nf" alt="nf"></div></div>
+        <label class="label">Norfolk Island</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ng" alt="ng"></div></div>
+        <label class="label">Nigeria</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ni" alt="ni"></div></div>
+        <label class="label">Nicaragua</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img nl" alt="nl"></div></div>
+        <label class="label">Netherlands</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img no" alt="no"></div></div>
+        <label class="label">Norway</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img np" alt="np"></div></div>
+        <label class="label">Nepal</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img nr" alt="nr"></div></div>
+        <label class="label">Nauru</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img nu" alt="nu"></div></div>
+        <label class="label">Niue</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img nz" alt="nz"></div></div>
+        <label class="label">New Zealand</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img om" alt="om"></div></div>
+        <label class="label">Oman</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img pa" alt="pa"></div></div>
+        <label class="label">Panama</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img pe" alt="pe"></div></div>
+        <label class="label">Peru</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img pf" alt="pf"></div></div>
+        <label class="label">French Polynesia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img pg" alt="pg"></div></div>
+        <label class="label">Papua New Guinea</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ph" alt="ph"></div></div>
+        <label class="label">Philippines</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img pk" alt="pk"></div></div>
+        <label class="label">Pakistan</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img pl" alt="pl"></div></div>
+        <label class="label">Poland</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img pm" alt="pm"></div></div>
+        <label class="label">Saint Pierre and Miquelon</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img pn" alt="pn"></div></div>
+        <label class="label">Pitcairn</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img pr" alt="pr"></div></div>
+        <label class="label">Puerto Rico</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ps" alt="ps"></div></div>
+        <label class="label">Palestine</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img pt" alt="pt"></div></div>
+        <label class="label">Portugal</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img pw" alt="pw"></div></div>
+        <label class="label">Palau</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img py" alt="py"></div></div>
+        <label class="label">Paraguay</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img qa" alt="qa"></div></div>
+        <label class="label">Qatar</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img re" alt="re"></div></div>
+        <label class="label">Réunion</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ro" alt="ro"></div></div>
+        <label class="label">Romania</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img rs" alt="rs"></div></div>
+        <label class="label">Serbia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ru" alt="ru"></div></div>
+        <label class="label">Russian Federation</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img rw" alt="rw"></div></div>
+        <label class="label">Rwanda</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img sa" alt="sa"></div></div>
+        <label class="label">Saudi Arabia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img sb" alt="sb"></div></div>
+        <label class="label">Solomon Islands</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img sc" alt="sc"></div></div>
+        <label class="label">Seychelles</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img sd" alt="sd"></div></div>
+        <label class="label">Sudan</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img se" alt="se"></div></div>
+        <label class="label">Sweden</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img sg" alt="sg"></div></div>
+        <label class="label">Singapore</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img sh" alt="sh"></div></div>
+        <label class="label"
+          >Saint Helena, Ascension and Tristan da Cunha</label
+        >
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img si" alt="si"></div></div>
+        <label class="label">Slovenia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img sj" alt="sj"></div></div>
+        <label class="label">Svalbard and Jan Mayen Islands</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img sk" alt="sk"></div></div>
+        <label class="label">Slovakia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img sl" alt="sl"></div></div>
+        <label class="label">Sierra Leone</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img sm" alt="sm"></div></div>
+        <label class="label">San Marino</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img sn" alt="sn"></div></div>
+        <label class="label">Senegal</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img so" alt="so"></div></div>
+        <label class="label">Somalia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img sr" alt="sr"></div></div>
+        <label class="label">Suriname</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ss" alt="ss"></div></div>
+        <label class="label">South Sudan</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img st" alt="st"></div></div>
+        <label class="label">Sao Tome and Principe</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img sv" alt="sv"></div></div>
+        <label class="label">El Salvador</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img sx" alt="sx"></div></div>
+        <label class="label">Sint Maarten (Dutch part)</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img sy" alt="sy"></div></div>
+        <label class="label">Syrian Arab Republic</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img sz" alt="sz"></div></div>
+        <label class="label">Swaziland</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img tc" alt="tc"></div></div>
+        <label class="label">Turks and Caicos Islands</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img td" alt="td"></div></div>
+        <label class="label">Chad</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img tf" alt="tf"></div></div>
+        <label class="label">French Southern Territories</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img tg" alt="tg"></div></div>
+        <label class="label">Togo</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img th" alt="th"></div></div>
+        <label class="label">Thailand</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img tj" alt="tj"></div></div>
+        <label class="label">Tajikistan</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img tk" alt="tk"></div></div>
+        <label class="label">Tokelau</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img tl" alt="tl"></div></div>
+        <label class="label">Timor-Leste</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img tm" alt="tm"></div></div>
+        <label class="label">Turkmenistan</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img tn" alt="tn"></div></div>
+        <label class="label">Tunisia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img to" alt="to"></div></div>
+        <label class="label">Tonga</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img tr" alt="tr"></div></div>
+        <label class="label">Turkey</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img tt" alt="tt"></div></div>
+        <label class="label">Trinidad and Tobago</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img tv" alt="tv"></div></div>
+        <label class="label">Tuvalu</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img tw" alt="tw"></div></div>
+        <label class="label">Taiwan</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img tz" alt="tz"></div></div>
+        <label class="label">Tanzania, United Republic of</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ua" alt="ua"></div></div>
+        <label class="label">Ukraine</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ug" alt="ug"></div></div>
+        <label class="label">Uganda</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img um" alt="um"></div></div>
+        <label class="label">US Minor Outlying Islands</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img us" alt="us"></div></div>
+        <label class="label">United States</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img uy" alt="uy"></div></div>
+        <label class="label">Uruguay</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img uz" alt="uz"></div></div>
+        <label class="label">Uzbekistan</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img va" alt="va"></div></div>
+        <label class="label">Holy See (Vatican City State)</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img vc" alt="vc"></div></div>
+        <label class="label">Saint Vincent and the Grenadines</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ve" alt="ve"></div></div>
+        <label class="label">Venezuela, Bolivarian Republic of</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img vg" alt="vg"></div></div>
+        <label class="label">Virgin Islands, British</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img vi" alt="vi"></div></div>
+        <label class="label">Virgin Islands, U.S.</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img vn" alt="vn"></div></div>
+        <label class="label">Viet Nam</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img vu" alt="vu"></div></div>
+        <label class="label">Vanuatu</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img wf" alt="wf"></div></div>
+        <label class="label">Wallis and Futuna Islands</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ws" alt="ws"></div></div>
+        <label class="label">Samoa</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img xk" alt="xk"></div></div>
+        <label class="label">Kosovo</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img ye" alt="ye"></div></div>
+        <label class="label">Yemen</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img yt" alt="yt"></div></div>
+        <label class="label">Mayotte</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img za" alt="za"></div></div>
+        <label class="label">South Africa</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img zm" alt="zm"></div></div>
+        <label class="label">Zambia</label>
+      </li>
+      <li class="item">
+        <div class="thumb"><div class="img zw" alt="zw"></div></div>
+        <label class="label">Zimbabwe</label>
+      </li>
+    </ul>
+  </body>
+</html>
